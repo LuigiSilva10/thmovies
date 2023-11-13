@@ -1,0 +1,191 @@
+html, body{
+    padding: 0;
+    margin: auto;
+    
+}
+
+
+figure img{
+    max-width: 5em;
+    height: auto;
+}
+
+
+header{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.808);
+}
+
+.nav-item a {
+    color: black;
+    font-optical-sizing: auto;
+    border-radius: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item a:hover{
+    color: black;
+    background-color: gray;
+}
+
+#inputItem {
+    width: 200px;
+}
+
+
+#mensagemErro {
+    color: red;
+}
+
+.container-lg {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -10px 20px 10px rgba(0, 0, 0, 0.747);
+    background-color: rgb(173, 173, 173);
+    max-width: 600px;
+}
+
+h1 {
+    color: #3498db;
+}
+
+.input {
+    margin-top: 20px;
+}
+
+#inputItem {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#btnConfirmarRemover{
+    background-color: green;
+    border: none;
+}
+
+button.btn.btn-secondary{
+    background-color: #dd3320;
+    border: none;
+}
+
+#btnAdicionar, #btnApagar {
+    padding: 8px 15px;
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnAdicionar:hover{
+    transform: scale(1.1);
+
+}
+
+#btnApagar:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+#btnAdicionar {
+    background-color: #03a547;
+    color: #fff;
+}
+
+#btnApagar {
+    background-color: #dd3320;
+    color: #fff;
+}
+
+#mensagemErro {
+    color: #ff1900;
+    font-weight: bold;
+}
+
+#listaItens {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+#listaItens li {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#listaItens li span {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #e74c3c;
+}
+
+
+i{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.edit-icon:hover {
+    color: rgb(216, 216, 0); 
+}
+
+.save-icon{
+    color: green;
+    font-size: 2em;
+    margin: 0;
+}
+
+.save-icon:hover{
+    color: green;
+    transform: scale(1.2);
+}
+
+.close{
+    border: none;
+    background-color: #dd3320;
+    border-radius: 5px; 
+    padding: auto;
+    color: white;
+}
+
+.close span{
+    font-size: 1.5em;
+   padding: auto;
+}
+
+.cancel-icon{
+    color: red;
+    font-size: 2em;
+    transform: scale(1.2);
+}
+
+
+
+i:hover{
+    transform: scale(1.1);
+    color: red;
+}
+
+section {
+  height: 100vh;
+  
+}       
+
+  
